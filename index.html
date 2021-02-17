@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <title>Modal window</title>
+  </head>
+  <body>
+    <div class="btn-group">
+      <button class="btn show-modal">Show modal 1</button>
+      <button class="btn show-modal">Show modal 2</button>
+      <button class="btn show-modal">Show modal 3</button>
+    </div>
+
+    <div class="modal hidden">
+      <button class="modal__close-btn">&times;</button>
+      <h1 class="modal__heading">I'm a modal window 😍</h1>
+      <p class="modal__body">
+        You can close me with the "x" in the top right corner, by clicking
+        outside the modal or by pressing the Escape ("esc") key on your
+        keyboard.
+      </p>
+      <p class="modal__body">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat.
+      </p>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <script src="/js/script.js"></script>
+  </body>
+</html>
